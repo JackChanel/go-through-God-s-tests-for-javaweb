@@ -1,9 +1,9 @@
-<%@ include file="../config.jsp" %>
+<%@ include file="config.jsp" %>    
 <%@ include file="user.jsp" %>
 <%@ include file="new.jsp" %>
 <%@ include file="lanmu.jsp" %>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
            <%
 
            //🚀第一步，声明配置文件
