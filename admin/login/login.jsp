@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html;charset=gb2312" %>
+<%@ page language="java" contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -36,22 +36,22 @@ body {
                 <td width="206" background="images/login_06.gif" nowrap="nowrap">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-                  <form action="">
+                  <form action="check.jsp">
                     <tr>
                       <td width="17%" height="22"><div align="center"><span class="STYLE1">用户</span></div></td>
                       <td width="58%" height="22"><div align="center">
-                          <input name="textfield" type="text" size="15" style="height:17px; border:solid 1px #bbbbbb">
+                          <input name="username" type="text" size="15" style="height:17px; border:solid 1px #bbbbbb">
                       </div></td>
                       <td width="25%" height="22">&nbsp;</td>
                     </tr>
                     <tr>
                       <td height="22"><div align="center"><span class="STYLE1">密码</span></div></td>
                       <td height="22"><div align="center">
-                          <input name="textfield2" type="password" size="15" style="height:17px; border:solid 1px #bbbbbb">
+                          <input name="pwd" type="password" size="15" style="height:17px; border:solid 1px #bbbbbb">
                       </div></td>
                       <td height="22">
                         <div align="center">
-                        <button></button>
+                        <input type="submit" value="登录" >
                           <%-- <img src="images/dl.gif" width="39" height="18"> --%>
                         </div>
                       </td>

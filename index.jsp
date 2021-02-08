@@ -5,23 +5,30 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link href="css/chinaese_main.css" type="text/css" rel="stylesheet" />
-  <title>杭州言汇科技有限公司</title>
+  <title>�����Ի�Ƽ����޹�˾</title>
   <script src="js/jquery-1.3.2.js" type="text/javascript"></script>
   <script src="js/globle.js" type="text/javascript"></script>
 </head>
 
 <body>
+
+  <%@ include file="class/config.jsp" %>    
+  <%@ include file="class/user.jsp" %>
+  <%@ include file="class/new.jsp" %>
+  <%@ include file="class/lanmu.jsp" %>
+
+
   <div class="w-950">
     <div class="toper">
       <div class="logo"><img src="images/login.png" width="205" height="59" /></div>
       <div class="help_div">
-        <div class="lang"><a href="#" class="chinaese">中文</a><a href="#" class="english">英语</a><a href="#"
-            class="hanyu">韩语</a><br class="clear" />
+        <div class="lang"><a href="#" class="chinaese">����</a><a href="#" class="english">Ӣ��</a><a href="#"
+            class="hanyu">����</a><br class="clear" />
         </div>
         <div class="search">
-          <input name="" type="text" value="站内搜索 / 输入内容后回车" class="search_txt"
+          <input name="" type="text" value="վ������ / �������ݺ�س�" class="search_txt"
             onclick="this.style.color='#333';this.value='';"
-            onblur="this.style.color='#818181';this.value='站内搜索 / 输入内容后回车';" />
+            onblur="this.style.color='#818181';this.value='վ������ / �������ݺ�س�';" />
         </div>
       </div>
       <br class="clear" />
@@ -32,40 +39,40 @@
       <div class="menu_main">
         <div class="menu_top">
           <div class="menu_nav">
-            <p class="menu_head"><a href="index.html">言汇首页</a></p>
+            <p class="menu_head"><a href="index.jsp">�Ի���ҳ</a></p>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">公司介绍</span></p>
-            <div class="menu_body"><a href="about.html">言汇简介</a> <a href="about.html">言汇宗旨</a> <a
-                href="about.html">发展历程</a> <a href="about.html">企业文化</a> <a href="about.html">团队介绍</a></div>
+            <p class="menu_head"><span class="child_nav">��˾����</span></p>
+            <div class="menu_body"><a href="about.html">�Ի���</a> <a href="about.html">�Ի���ּ</a> <a
+                href="about.html">��չ����</a> <a href="about.html">��ҵ�Ļ�</a> <a href="about.html">�Ŷӽ���</a></div>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">公司新闻</span></p>
-            <div class="menu_body"><a href="news.html">公司新闻</a><a href="news.html">行业动态</a></div>
+            <p class="menu_head"><span class="child_nav">��˾����</span></p>
+            <div class="menu_body"><a href="news.html">��˾����</a><a href="news.html">��ҵ��̬</a></div>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">产品介绍</span></p>
-            <div class="menu_body"><a href="product.html">产品介绍</a><a href="product.html">产品介绍</a></div>
+            <p class="menu_head"><span class="child_nav">��Ʒ����</span></p>
+            <div class="menu_body"><a href="product.html">��Ʒ����</a><a href="product.html">��Ʒ����</a></div>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">技术服务</span></p>
-            <div class="menu_body"><a href="support.html">技术服务</a><a href="support.html">技术服务</a></div>
+            <p class="menu_head"><span class="child_nav">��������</span></p>
+            <div class="menu_body"><a href="support.html">��������</a><a href="support.html">��������</a></div>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">商业伙伴</span></p>
-            <div class="menu_body"><a href="command.html">商业伙伴</a><a href="command.html">商业伙伴</a></div>
+            <p class="menu_head"><span class="child_nav">��ҵ���</span></p>
+            <div class="menu_body"><a href="command.html">��ҵ���</a><a href="command.html">��ҵ���</a></div>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">交流招聘</span></p>
-            <div class="menu_body"><a href="job.html">交流招聘</a><a href="job.html">交流招聘</a></div>
+            <p class="menu_head"><span class="child_nav">������Ƹ</span></p>
+            <div class="menu_body"><a href="job.html">������Ƹ</a><a href="job.html">������Ƹ</a></div>
           </div>
           <div class="menu_nav more_nav">
-            <p class="menu_head"><span class="child_nav">合作频道</span></p>
-            <div class="menu_body"><a href="cooperation.html">商务合作</a><a href="survey.html">网上调查</a><a
-                href="question.html">在线解答</a></div>
+            <p class="menu_head"><span class="child_nav">����Ƶ��</span></p>
+            <div class="menu_body"><a href="cooperation.html">�������</a><a href="survey.html">���ϵ���</a><a
+                href="question.html">���߽��</a></div>
           </div>
           <div class="menu_nav">
-            <p class="menu_head"><a href="contant.html">联系我们</a></p>
+            <p class="menu_head"><a href="contant.html">��ϵ����</a></p>
           </div>
         </div>
       </div>
@@ -74,57 +81,55 @@
     <div class="main m-b-10">
       <div class="main_left">
         <div class="about_us m-b-10">
-          <h2>公司简介<a href="#" class="more">MORE</a></h2>
-          <div class="about_us_contain"> <img src="images/about_img.png" width="113" height="101" /><span
-              class="blod">杭州言汇科技有限公司</span>
-
-              <%@ include file="class/config.jsp" %>    
-              <%@ include file="class/user.jsp" %>
-              <%@ include file="class/new.jsp" %>
-              <%@ include file="class/lanmu.jsp" %>
-              <%
-              Conf cnf = new Conf(); 
-              Lanmu lm = new Lanmu();
-              String host = cnf.host();
-              String user = cnf.user();
-              String pwd = cnf.pwd();
-              String ret="";
+          <h2>��˾���
+          <a href="#" class="more">MORE</a></h2>
+          <div class="about_us_contain"> <img src="images/about_img.png" width="113" height="101" /><span class="blod">�����Ի�Ƽ����޹�˾</span>
+            <%
+                Conf cnf = new Conf(); 
+                Lanmu lm = new Lanmu();
+                String host = cnf.host();
+                String user = cnf.user();
+                String pwd = cnf.pwd();
+                String ret="";
+                %>
+            <%
               try {  
                 Class.forName("com.mysql.jdbc.Driver");  
                 Connection conn = DriverManager.getConnection(host,user,pwd);  
                   if(conn != null){        
-                      Statement stmt = null;  
-                      ResultSet rs = null;  
-                      String sql = "SELECT Ldescription FROM Lanmu where Lname ='公司介绍';";
+                      Statement stmt = null;
+                      ResultSet rs = null;
+                      String sql = "SELECT Ldescription FROM Lanmu where Lname ='��˾����';";
                       stmt = conn.createStatement();  
-                      rs = stmt.executeQuery(sql);  
-                      ret = rs;
+                      rs = stmt.executeQuery(sql);
+                      while(rs.next()){
+                        ret = rs.getString("Ldescription");
+                        out.println('\n'+ ret);
+                      }
                   }
                   else{
-                    ret = "连接失败！";
+                    ret = "����ʧ�ܣ�";
                   }
                 }
               catch (Exception e) {
-                ret = "数据库连接异常！";
+                ret = "���ݿ������쳣��";
               }
-              out.println(ret)
               %>
-              
           </div>
         </div>
         <div class="lay_div">
-          <h2>联系我们</h2>
+          <h2>��ϵ����</h2>
           <div class="lay_contain">
             <dl class="contain_dl">
               <dt><img src="images/contant_img.png" width="113" height="101" /></dt>
-              <dd class="title">杭州言汇科技有限公司</dd>
-              <dd>电话：86-571-85227120</dd>
-              <dd>传真：86-571-88073759</dd>
+              <dd class="title">�����Ի�Ƽ����޹�˾</dd>
+              <dd>�绰��86-571-85227120</dd>
+              <dd>���棺86-571-88073759</dd>
             </dl>
             <ul class="contain_ul">
-              <li>地址：杭州市莫干路1418-19-2楼</li>
-              <li>邮编：310011</li>
-              <li>邮箱：yh@yeahoo.cn/greatabcd@gmail.com</li>
+              <li>��ַ��������Ī��·1418-19-2¥</li>
+              <li>�ʱࣺ310011</li>
+              <li>���䣺yh@yeahoo.cn/greatabcd@gmail.com</li>
             </ul>
           </div>
         </div>
@@ -132,14 +137,8 @@
       <div class="main_right">
         <div class="main_right_top m-b-10">
           <div class="lay_div news m-r-10">
-            <h2>公司新闻<a href="#" class="more">MORE</a></h2>
+            <h2>��˾����<a href="#" class="more">MORE</a></h2>
             <%
-              Conf cnf = new Conf(); 
-              Lanmu lm = new Lanmu();
-              String host = cnf.host();
-              String user = cnf.user();
-              String pwd = cnf.pwd();
-              String ret="";
               try {  
                 Class.forName("com.mysql.jdbc.Driver");  
                 Connection conn = DriverManager.getConnection(host,user,pwd);  
@@ -149,77 +148,89 @@
                       String sql = "SELECT Ldescription FROM news;";
                       stmt = conn.createStatement();  
                       rs = stmt.executeQuery(sql);  
-                      i=0;
+                      int i=0;
                       while (rs.next()&&i<=3) {
-                        i++
+                        i++;
                         ret=rs.getString("ntitle")+"<br>";
-                        out.println(ret)
+                        out.println(ret);
                       }  
                   }
                   else{
-                    ret = "连接失败！";
+                    ret = "����ʧ�ܣ�";
                   }
                 }
               catch (Exception e) {
-                ret = "数据库连接异常！";
+                ret = "���ݿ������쳣��";
               }
               
             %>
           </div>
           <div class="lay_div news">
-            <h2>行业新闻<a href="#" class="more">MORE</a></h2>
-            <div class="lay_contain">
-              <dl class="right_dl">
-                <dt><img src="images/hy_news_img.png" width="113" height="101" /></dt>
-                <dd class="title">消费者对医疗保健服务的需求</dd>
-                <dd>根据医疗保健市场的调据医疗保健市场的调研出版...</dd>
-                <dd>[<a href="#">查看</a>]</dd>
-              </dl>
-              <ul class="right_ul">
-                <li><a href="#">低碳水化合物饮食可能增加心脑血管疾病的风险</a></li>
-                <li><a href="#">名人代言医疗广告明年起将禁播</a>，</li>
-                <li><a href="#">外贸入侵国内低端医疗器械企业前景堪忧</a></li>
-                <li><a href="#">外贸入侵国内低端医疗器械企业前景堪忧</a></li>
-              </ul>
-            </div>
+            <h2>��������<a href="#" class="more">MORE</a></h2>
+            <%
+              try {  
+                Class.forName("com.mysql.jdbc.Driver");  
+                Connection conn = DriverManager.getConnection(host,user,pwd);  
+                  if(conn != null){        
+                      Statement stmt = null;  
+                      ResultSet rs = null;  
+                      String sql = "SELECT Ldescription FROM news WHERE Father="+"(SELECT Ldescription FROM Lanmu where Lname ='��������');";
+                      stmt = conn.createStatement();  
+                      rs = stmt.executeQuery(sql);  
+                      int i=0;
+                      while (rs.next()&&i<=3) {
+                        i++;
+                        ret=rs.getString("ntitle")+"<br>";
+                        out.println(ret);
+                      }  
+                  }
+                  else{
+                    ret = "����ʧ�ܣ�";
+                  }
+                }
+              catch (Exception e) {
+                ret = "���ݿ������쳣��";
+              }
+              
+            %>
           </div>
           <br class="clear" />
         </div>
         <div class="lay_div">
-          <h2>最新产品<a href="#" class="more">MORE</a></h2>
-          <div class="lay_contain product">
-            <div class="move_left"><input name="" type="button" class="move_left_btn" value="" /></div>
-            <div class="move_right"><input name="" type="button" class="move_right_btn" value="" /></div>
-            <div class="porduct_list">
-              <ul class="product_ul">
-                <li class="poduct_img"><a href="#"><img src="images/product/index_01.png" width="133"
-                      height="106" /></a></li>
-                <li><a href="#">产品名称</a></li>
-              </ul>
-              <ul class="product_ul">
-                <li class="poduct_img"><a href="#"><img src="images/product/index_01.png" width="133"
-                      height="106" /></a></li>
-                <li><a href="#">产品名称</a></li>
-              </ul>
-              <ul class="product_ul">
-                <li class="poduct_img"><a href="#"><img src="images/product/index_01.png" width="133"
-                      height="106" /></a></li>
-                <li><a href="#">产品名称</a></li>
-              </ul>
-              <ul class="product_ul">
-                <li class="poduct_img"><a href="#"><img src="images/product/index_01.png" width="133"
-                      height="106" /></a></li>
-                <li><a href="#">产品名称</a></li>
-              </ul>
-            </div>
-          </div>
+          <h2>��Ʒ����<a href="#" class="more">MORE</a></h2>
+          <%
+              try {  
+                Class.forName("com.mysql.jdbc.Driver");  
+                Connection conn = DriverManager.getConnection(host,user,pwd);  
+                  if(conn != null){        
+                      Statement stmt = null;  
+                      ResultSet rs = null;  
+                      String sql = "SELECT Ldescription FROM news WHERE Father="+"(SELECT Ldescription FROM Lanmu where Lname ='��Ʒ����');";
+                      stmt = conn.createStatement();  
+                      rs = stmt.executeQuery(sql);  
+                     int i=0;
+                      while (rs.next()&&i<=3) {
+                        i++;
+                        ret=ret+rs.getString("ntitle")+"<br>";
+                        out.println(ret);
+                      }  
+                  }
+                  else{
+                    ret = "����ʧ�ܣ�";
+                  }
+                }
+              catch (Exception e) {
+                ret = "���ݿ������쳣��";
+              }
+              
+            %>
         </div>
       </div>
       <br class="clear" />
     </div>
     <div class="bottom">
-      <p><a href="#">首页</a> | <a href="#">联系我们</a></p>
-      <p>©2011 杭州言汇信息科技有限公司 All rights reserved.</p>
+      <p><a href="#">��ҳ</a> | <a href="#">��ϵ����</a></p>
+      <p>?2011 �����Ի���Ϣ�Ƽ����޹�˾ All rights reserved.</p>
     </div>
   </div>
 </body>
